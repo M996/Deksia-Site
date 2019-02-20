@@ -1,0 +1,38 @@
+/* MIXIN for media queries */
+/* use: @include tablet {} */
+$phone-width: 600px;
+$tablet-width: 850px;
+$slim-desktop-width: 1000px;
+$desktop-width: 1024px;
+$wide-desktop-width: 1350px;
+
+
+@mixin phone {
+  @media only screen and (max-width: #{$phone-width}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$phone-width + 1px }) and (max-width: #{$tablet-width}) {
+    @content;
+  }
+}
+
+@mixin slim-desktop {
+  @media (min-width: #{$tablet-width + 1px }) and (max-width: #{$slim-desktop-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$slim-desktop-width + 1px }) and (max-width: #{$wide-desktop-width}) {
+    @content;
+  }
+}
+
+@mixin wide-desktop {
+  @media only screen and (min-width: #{$wide-desktop-width + 1px}) {
+    @content;
+  }
+}
