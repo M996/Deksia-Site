@@ -1,4 +1,10 @@
-<div id="bynumbers-content3">
+<div class="Top">
+ <img src="<?php echo get_template_directory_uri();?>/public/images/title-mountains.jpg">
+ <div class="top-title">
+   <h2 class="serif"> By the Numbers </h2>
+ </div>
+</div>
+<div class="bynumbers-content3">
 
 <img src="<?php echo get_template_directory_uri();?>/public/images/header-image.jpg">
   <h2> Industry CPA Statisitcs </h2>

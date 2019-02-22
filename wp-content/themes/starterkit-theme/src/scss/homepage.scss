@@ -1,0 +1,26 @@
+.thickunderline {
+  border-bottom: black 3px solid;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+ font-weight: bold;
+ font-size: 24px;
+}
+
+
+
+.smallerhomepage {
+  font-size: 16px;
+  border-bottom: black 1px solid;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  padding-bottom: 10px;
+}
+
+.homepage h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 72px;
+  font-weight: bold;
+}

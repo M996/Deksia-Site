@@ -1,0 +1,40 @@
+.bottomrightim {
+  margin-right: 2px;
+  margin-left: 0px;
+  height: 350px;
+  width: auto;
+}
+
+.bottomrightim img {
+  display: flex;
+  flex-wrap: wrap;
+  height: 328px;
+  margin-right: 2;
+  margin-left: auto;
+}
+
+.goals-content2 {
+  margin-top: 28px;
+  margin-left: 28px;
+
+    h2 {
+  text-transform: capitalize;
+  font-size: 48px;
+  font-weight: bolder;
+  padding-bottom: 20px;
+  border-bottom: 1px black solid;
+  margin-bottom: 32px;
+  }
+  .grey {
+    color: grey;
+    margin: 8px;
+    font-size: 24px;
+    font-weight: bolder;
+  }
+    li {
+      padding: 14px;
+      color: rgb(200, 90, 0);
+      font-size: 28px;
+      font-weight: bold;
+    }
+}

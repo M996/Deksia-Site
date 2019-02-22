@@ -14,6 +14,9 @@ get_header();
     <?php include("homepage-content.php") ?>
   </div>
   <div class="container">
+    <?php include("goalsintro.php") ?>
+  </div>
+  <div class="container">
     <?php include("Goals-content1.php") ?>
   </div>
   <div class="container">
@@ -21,6 +24,9 @@ get_header();
   </div>
   <div class="container">
     <?php include("Goals-content3.php") ?>
+  </div>
+  <div class="container">
+    <?php include("numbersintro.php") ?>
   </div>
   <div class="container">
     <?php include("bynumbers-content1.php") ?>
@@ -32,28 +38,34 @@ get_header();
     <?php include("bynumbers-content3.php") ?>
   </div>
   <div class="container">
-    <<?php include("marketingblueprint-content1.php") ?>
+    <?php include("marketingintro.php") ?>
   </div>
   <div class="container">
-    <<?php include("marketingblueprint-content2.php") ?>
+    <?php include("marketingblueprint-content1.php") ?>
+  </div>
+  <div class="container">
+    <?php include("marketingblueprint-content2.php") ?>
   </div>
   <Div class="container">
-    <<?php include("marketingblueprint-content3.php") ?>
+    <?php include("marketingblueprint-content3.php") ?>
   </div>
   <div class="container">
-    <<?php include("marketingblueprint-content4.php") ?>
+    <?php include("marketingblueprint-content4.php") ?>
   </div>
   <div class="container">
-    <<?php include("marketingblueprint-content5.php") ?>
+    <?php include("marketingblueprint-content5.php") ?>
   </div>
   <div class="container">
-    <<?php include("timelines&totals-content1.php") ?>
+    <?php include("timeintro.php") ?>
   </div>
   <div class="container">
-    <<?php include("timelines&totals-content2.php") ?>       
+    <?php include("timelines&totals-content1.php") ?>
+  </div>
+  <div class="container">
+    <?php include("timelines&totals-content2.php") ?>
   </div>
 
-</div><!--#homepage-->
+</div>
 
 <?php
 get_footer();

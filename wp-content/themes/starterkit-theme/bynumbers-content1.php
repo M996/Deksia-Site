@@ -1,4 +1,11 @@
-<div id="bynumbers-content1">
+<div class="Top">
+  <img src="<?php echo get_template_directory_uri();?>/public/images/title-mountains.jpg">
+  <div class="top-title">
+    <h2 class="serif"> By the Numbers </h2>
+  </div>
+</div>
+
+<div class="bynumbers-content1">
 
   <Div class="contop"><h2> Revenue goal Breakdown </h2>
   <p class= "smallgrey"> (CPA=cost per acquisition)

@@ -1,11 +1,12 @@
-
-  <div class="Top">
+<div class="Top">
   <img src="<?php echo get_template_directory_uri();?>/public/images/ribbon.png">
-  <h2 class="serif"> The Deksia Marketing Blueprint </h2>
+  <div class="top-title">
+    <h2 class="serif"> The Deksia Marketing Blueprint </h2>
+  </div>
 </div>
 
 
-  <Div class="Mark3Right">
+<Div class="Mark3Right">
   <Div class="righttop">
   <h2> Establish Big Idea </h2>
   <p> Research is the most effective way to move a brand
@@ -39,7 +40,7 @@
     <Div class="protocol">
       <img src="<?php echo get_template_directory_uri();?>/public/images/Alex.png">
        <img src="<?php echo get_template_directory_uri();?>/public/images/Lauren.png">
-        <img src="<?php echo get_template_directory_uri();?>/public/images/symbol".png>
+        <img src="<?php echo get_template_directory_uri();?>/public/images/symbol.png">
         <img class="line"> <p class="bold"> Current Client Research </p> <p>By speaking to your current audience, we collect firsthand insights on what is truly valuable about your product or service. </p>
     </Div>
     <Div class="protocol">
@@ -50,7 +51,7 @@
     </Div>
     <Div class="protocol">
       <img src="<?php echo get_template_directory_uri();?>/public/images/Alex.png">
-       <img src="<?php echo get_template_directory_uri();?>/public/images/Lauren">
+       <img src="<?php echo get_template_directory_uri();?>/public/images/Lauren.png">
         <img src="<?php echo get_template_directory_uri();?>/public/images/Josh.png">
          <img src="<?php echo get_template_directory_uri();?>/public/images/Monica.png">
        <img class="line"> <p class="bold"> The Big Idea </p> <p>All departments meet to establish a unified direction based on the synthesis of these research areas. During this process, we discover your brand’s Big Idea. </p>

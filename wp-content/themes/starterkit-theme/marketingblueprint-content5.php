@@ -1,7 +1,8 @@
-
-  <div class="Top">
+<div class="Top">
   <img src="<?php echo get_template_directory_uri();?>/public/images/ribbon.png">
-  <h2 class="serif"> The Deksia Marketing Blueprint </h2>
+  <div class="top-title">
+    <h2 class="serif"> The Deksia Marketing Blueprint </h2>
+  </div>
 </div>
 
   <Div class="Mark3Right">
@@ -55,11 +56,13 @@
        <img class="line"> <p class="bold"> Budget Established </p> <p>We calculate your annual budget and break it down into monthly expenses that work for you. </p>
     </Div>
     <Div class="protocol">
-      <img src="<?php echo get_template_directory_uri();?>/public/images/Alex.png">
-       <img src="<?php echo get_template_directory_uri();?>/public/images/Lauren.png">
+      <div class="yellowfinish">
+        <img src="<?php echo get_template_directory_uri();?>/public/images/Alex.png">
+        <img src="<?php echo get_template_directory_uri();?>/public/images/Lauren.png">
         <img src="<?php echo get_template_directory_uri();?>/public/images/Josh.png">
         <img src="<?php echo get_template_directory_uri();?>/public/images/Monica.png">
         <img class="line"> <h2> FINAL REVIEW AND ASSEMBLY </H2>
+        </div>
     </Div>
 
   </Div>

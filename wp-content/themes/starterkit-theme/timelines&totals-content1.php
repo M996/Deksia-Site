@@ -1,12 +1,8 @@
-
-  <div class="Top">
-    <img src="<?php echo get_template_directory_uri();?>/public/images/ribbon.png">
-    <h2 class="serif"> The Deksia Marketing Blueprint </h2>
-  </div>
-
 <div class="Timelines-Totals Content1">
   <div class="timetop">
-    <h2> your strategic marketing budget breakdown </h2>
+    <div class="top-title">
+      <h2 class="serif"> Your Strategic Marketing Budget Breakdown </h2>
+    </div>
   </div>
   <div class="timemiddle">
     <img src="<?php echo get_template_directory_uri();?>/public/images/eye.png">
@@ -19,21 +15,21 @@
       <h3> 1 Brand Research </h3>
       <ul>
         <li> Shareholder Interviews </li>
-        <li> Current Client Survey Data</li>
-        <li> Potential Client Discovery</li>
-        <li> Competitor Analysis</li>
-        <li> Big Idea</li>
-        <li> Big Idea Brand Research Booklet</li>
+          <li> Current Client Survey Data</li>
+            <li> Potential Client Discovery</li>
+              <li> Competitor Analysis</li>
+                <li> Big Idea</li>
+                  <li> Big Idea Brand Research Booklet</li>
       </ul>
     </Div>
   <Div class="botright">
     <h3> 1 Strategic Plan </h3>
       <ul>
         <li> Clear Course of Action </li>
-        <li> Brand Assets Determined</li>
-        <li> Funnel Strategies Built</li>
-        <li> Timelines</li>
-        <li> Budgets</li>
+          <li> Brand Assets Determined</li>
+            <li> Funnel Strategies Built</li>
+              <li> Timelines</li>
+                <li> Budgets</li>
       </ul>
     </div>
   </div>

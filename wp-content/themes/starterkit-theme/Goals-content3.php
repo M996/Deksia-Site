@@ -1,13 +1,33 @@
+<div class="Top">
+ <img src="<?php echo get_template_directory_uri();?>/public/images/eye.png">
+ <div class="top-title">
+   <h2 class="serif"> Goals and Vision </h2>
+ </div>
+</div>
 
 
-<div id="goals-content3">
+<div class="goals-content2">
+  <div class="terms">
   <h2 class = "very_bold"> Terms </h2>
-  <h2> The concepts you need to understand to grow your business </h2>
+  </div>
+  <div class="concept-title">
+    <h2 id="nounderline"> The concepts you need to understand to grow your business </h2>
+  </div>
 
-  <p class = "grey"> Lifetime Client Value - </p> Your total revenue per client </p> <br>
-  <p class = "grey"> Cost per Acquisition - </p> What it costs to get a new client </p> <br>
-  <p class = "grey"> Funnel - </p> Your sales process from beginning to end </p> <br>
+  <div class="goalline">
+    <p class = "grey"> Lifetime Client Value -   <span id="orange"> Your total revenue per client </span> </p>
+  </div>
+  <div class="goalline">
+    <p class = "grey"> Cost per Acquisition -  <span id="orange"> What it costs to get a new client </span> </p>
+  </div>
+  <div class="goalline">
+    <p class = "grey"> Funnel -   <span id="orange"> Your sales process from beginning to end </span> </p>
+  </div>
 
-<img src="<?php echo get_template_directory_uri();?>/public/images/mountains.png">
 
-</div><!--#homepage-->
+    <div class="bottomrightim">
+      <img src="<?php echo get_template_directory_uri();?>/public/images/mountains.jpg">
+    </div>
+
+
+</div>

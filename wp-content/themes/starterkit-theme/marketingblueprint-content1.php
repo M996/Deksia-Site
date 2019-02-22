@@ -1,7 +1,8 @@
-
-  <div class="Top">
+<div class="Top">
   <img src="<?php echo get_template_directory_uri();?>/public/images/ribbon.png">
-  <h2 class="serif"> The Deksia Marketing Blueprint </h2>
+  <div class="top-title">
+    <h2 class="serif"> The Deksia Marketing Blueprint </h2>
+  </div>
 </div>
 
 
