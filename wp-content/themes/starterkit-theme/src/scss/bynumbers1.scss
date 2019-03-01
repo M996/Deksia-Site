@@ -1,0 +1,90 @@
+.bynumbers-content1 {
+  width: 50%;
+  display: flex;
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    border-bottom: grey 1px solid;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: rgb(200, 100, 0);
+    display: block;
+    font-style: italic;
+    font-weight: bolder;
+    margin-bottom: 55px;
+  }
+}
+
+.contop {
+  padding: 20px;
+  h2 {
+    font-weight: bold;
+    font-size: 28px;
+  }
+   .smallgrey {
+     font-size: 18px;
+     color: grey;
+     margin-top: 12px;
+     border-top: 1px solid grey;
+     width: 300px;
+   }
+}
+
+.numbercolumns1 {
+  width: 20%;
+  padding-left: 20px;
+  p {
+    font-size: 28px;
+  }
+}
+.numberdesc {
+  width: 50%;
+  p {
+    border-bottom: 2px solid rgb(200, 100, 0);
+    font-size: 28px;
+  }
+}
+
+.golden {
+  color: rgb(200, 160, 0);
+  font-style: normal;
+  border-bottom: 2px solid grey;
+}
+
+.goldenplain {
+  color: rgb(200, 160, 0);
+  font-style: normal;
+  padding: 20px;
+  padding-bottom: 65px;
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.boldblack {
+  color: black;
+  font-style: normal;
+  border-bottom: 2px solid black;
+}
+
+.bynumbersright {
+  width: 50%;
+}
+
+.bynumbersrightop {
+  height: 50%;
+  display: flex;
+   h3 {
+     padding: 20px;
+     font-size: 28px;
+     color: grey;
+   }
+  .numberstopleft {
+    width: 60%;
+  }
+  .numberstopright {
+    width: 40%;
+  }
+}

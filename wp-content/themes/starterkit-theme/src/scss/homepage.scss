@@ -7,15 +7,24 @@
  font-size: 24px;
 }
 
+.homepage {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
 
+.borderedtext {
+  width: 900px;
+  max-width: 100%;
+}
 
 .smallerhomepage {
   font-size: 16px;
   border-bottom: black 1px solid;
   display: flex;
   justify-content: center;
-  padding: 5px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .homepage h1 {

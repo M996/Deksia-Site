@@ -1,0 +1,75 @@
+.marketingblueprint-content2 {
+  .foundationalign {
+    margin-left: 120px;
+  }
+  .Mark3Left {
+    width: 55%;
+    position: relative;
+    &:before {
+      content: "";
+      border-left: 1px dashed #ef682d;
+      position: absolute;
+      left: 60px;
+      height: 680px;
+    }
+  }
+  .protocol {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+    .images {
+      width: 65%;
+      display:inline-flex;
+      align-items: center;
+      h3 {
+        font-size: 26px;
+        color: grey;
+        padding-right: 22px;
+        margin: 15px;
+      }
+      .name {
+        font-size: 16px;
+        color: grey;
+        padding-right: 4px;
+        margin: 2px;
+        font-weight: lighter;
+      }
+      .pic {
+        margin-right: 16px;
+        height: 52px;
+        width: 70px;
+        img {
+          height: 44px;
+          width: 44px;
+        }
+      }
+    }
+    .align {
+      width: 35%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      .bold {
+        font-weight: bold;
+        font-size: 18px;
+      }
+    }
+    .arrows {
+      border-top: 1px dotted black;
+      width: 100%;
+      position: relative;
+      &:before {
+        content: "<";
+        position: absolute;
+        left: 0;
+        top: -10px;
+      }
+      &:after {
+        content: ">";
+        position: absolute;
+        right: 0;
+        top: -10px;
+      }
+    }
+  }
+}

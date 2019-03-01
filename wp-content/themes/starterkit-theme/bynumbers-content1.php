@@ -5,25 +5,50 @@
   </div>
 </div>
 
-<div class="bynumbers-content1">
+<div class="contop">
+  <h2> REVENUE GOAL BREAKDOWN </h2>
+  <p class= "smallgrey"> (CPA=cost per acquisition) </p>
+</div>
 
-  <Div class="contop"><h2> Revenue goal Breakdown </h2>
-  <p class= "smallgrey"> (CPA=cost per acquisition)
-  </Div>
-    <br>
-    <p><span class="golden">$296,000</span> Increase in revenue </p>
-    <p><span class="boldblack">$850</span> Annual spending per client </p>
-    <p><span class="boldblack">348</span> New clients needed </p>
-    <p><span class="boldblack">$235</span> Average new client CPA</p>
-    <p><span class="boldblack">$81,750</span> Total marketing budget </p>
-    <p><span class="boldblack">27.62%</span> Percentage of annual revenue </p>
+<div class="goalsflex devBorders">
+  <div class="bynumbers-content1">
 
-    <h3 class= "biggrey"> TOTAL LIFETIME VALUE OF NEW CUSTOMERS </h3>
-    <h3 class= "biggrey"> PERCENTAGE OF LIFETIME REVENUE </h3>
+    <div class="numbercolumns1">
+      <p><span class="golden">$296,000</span></p>
+      <p><span class="boldblack">$850</span></p>
+      <p><span class="boldblack">348</span></p>
+      <p><span class="boldblack">$235</span></p>
+      <p><span class="boldblack">$81,750</span></p>
+      <p><span class="boldblack">27.62%</span></p>
+    </div>
 
-    <p class="golden"> $2,560,5545 </p>
-    <p class="golden"> 3.19% </p>
+    <div class="numberdesc">
+      <p>Increase in revenue </p>
+      <p>Annual spending per client </p>
+      <p>New clients needed </p>
+      <p>Average new client CPA</p>
+      <p>Total marketing budget </p>
+      <p>Percentage of annual revenue </p>
+    </div>
+  </div>
 
-    <img src="<?php echo get_template_directory_uri();?>/public/images/mountains.png">
+  <div class="bynumbersright">
+    <div class="bynumbersrightop">
+      <div class="numberstopleft">
+        <h3 class= "biggrey"> TOTAL LIFETIME VALUE OF NEW CUSTOMERS </h3>
+        <h3 class= "biggrey"> PERCENTAGE OF LIFETIME REVENUE </h3>
+      </div>
 
-</div><!--#homepage-->
+      <div class="numberstopright">
+        <p class="goldenplain"> $2,560,554 </p>
+        <p class="goldenplain"> 3.19% </p>
+      </div>
+    </div>
+
+    <div class="bottomimg">
+      <img src="<?php echo get_template_directory_uri();?>/public/images/mountains.png">
+    </div>
+  </div>
+</div>
+
+</div><!---->

@@ -1,0 +1,45 @@
+.topribbon {
+  margin-right: auto;
+  margin-left: 0;
+  display: flex;
+  img {
+    height: 60px;
+    width: 50px;
+    border-bottom: grey 4px solid;
+    padding-bottom: 8px;
+    margin-left: 20px;
+  }
+}
+
+
+.marketingblueprint-content1{
+  display: flex;
+  margin: 4px;
+  .leftmarket {
+    align-content: center;
+    align-items: center;
+    width: 50%;
+    border-right: 1px solid black;
+    .bigtext {
+      font-size: 48px;
+      font-weight: bold;
+      margin-top: 20%;
+      margin-right: 0;
+      margin-left: auto;
+      width: 80%;
+    }
+    .orangetext {
+      color: #ef682d;
+      font-style: italic;
+      margin-right: 0;
+      margin-left: auto;
+      margin-top: 12px;
+      width: 80%;
+      font-size: 28px;
+      font-weight: bold;
+    }
+  }
+  .rightmarket {
+    width: 50%;
+  }
+}

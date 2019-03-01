@@ -32,7 +32,7 @@ get_header();
     <?php include("bynumbers-content1.php") ?>
   </div>
   <div class="container">
-    <?php include("bynumber-content2.php") ?>
+    <?php include("bynumbers-content2.php") ?>
   </div>
   <div class="container">
     <?php include("bynumbers-content3.php") ?>
