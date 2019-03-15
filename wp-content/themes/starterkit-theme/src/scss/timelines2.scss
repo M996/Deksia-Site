@@ -1,0 +1,60 @@
+.lasttop {
+  margin-left: 30px;
+  .grey {
+    color: grey;
+    font-style: italic;
+    font-size: 24px;
+  }
+  .large {
+    font-size: 38px;
+    font-weight: bold;
+  }
+}
+
+
+.lastbottom {
+  margin-left: 30px;
+  display: flex;
+  .lastleft {
+    width: 75%;
+    img {
+    }
+
+  }
+  .lastright {
+    width: 25%;
+    padding-top: 10%;
+    .greyunderline {
+      color: grey;
+      border-bottom: 5px solid grey;
+      Display: flex;
+      #email {
+        margin-right: 2%;
+        font-style: italic;
+        color: black;
+      }
+    }
+    .rightunder {
+      display: inline-block;
+      h2 {
+        font-size: 36px;
+        font-weight: bold;
+      }
+      .serif {
+        font-style: italic;
+        font-size: 20px;
+        font-weight: bolder;
+
+      }
+      .phoneline{
+        display: flex;
+        .grey {
+          margin-left: 4%;
+          color: grey;
+          margin-bottom: 0;
+          margin-top: auto;
+        }
+      }
+    }
+  }
+}
